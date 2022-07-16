@@ -26,32 +26,32 @@ function onCheck()
         document.querySelector("#result3").innerHTML = "Congrats you got A+ Grade";
 
     }
-   else if(result2>=70 && result2<=79)
+   else if(result2>=70 && result2<=79.9)
     {
         document.querySelector("#result3").innerHTML = "Excellent for A Grade";
 
     }
-   else if(result2>=60 && result2<=69)
+   else if(result2>=60 && result2<=69.9)
     {
         document.querySelector("#result3").innerHTML = "Good B Grade";
 
     }
-   else if(result2>=50 && result2<=59)
+   else if(result2>=50 && result2<=59.9)
     {
         document.querySelector("#result3").innerHTML = "Better C grade";
 
     }
-   else if(result2>=40 && result2<=49)
+   else if(result2>=40 && result2<=49.9)
     {
         document.querySelector("#result3").innerHTML = "Need Improvement D Grade";
 
     }
-   else if(result2>=33 && result2<=39)
+   else if(result2>=33 && result2<=39.9)
     {
         document.querySelector("#result3").innerHTML = "Need Hard Work E Grade";
 
     }
-   else if(result2<=32)
+   else if(result2<=32.9)
     {
         document.querySelector("#result3").innerHTML = "Better Luck Next time Fail!";
 

@@ -1,3 +1,6 @@
+body{
+    background-color: crimson;
+}
 form{
     width: 500px;
     display: flex;
